@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>YB Lashes, servicios prestados con la últimas tendencias de embellecimiento facial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="icon" href="pic/logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
+  <meta name="description"
+    content="Sitio web de YB lashes estudio de cejas y pestañas, donde podrás ver el trabajo que realizamos con las últimas técnicas en el mercado, porás contratar nuestros servicios y comprar nuestros productos">
+  <meta name="keywords"
+    content="depilación, epilación, lifting, cosmetica, facial, dermatología, maquillaje, cejas, pestañas, rostros, bozo, vello, hilo">
+
+
+
+
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+
+
+
+</head>
+
+<header>
+  <div class="row logo">
+    <div class="col-sm-1"><img src="pic/logoorig.png" alt="logo" height=100px></div>
+    <div class="col-sm-5 titulo">Yuny Estudio Brows and Lashes</div>
+    <div class="offset-md-3 col-sm-3" style="text-align: right;margin-top: 17px;">
+      <img src="pic/logowhat01.png" alt="whatsapplogo" height="40px" title="+54 9 11 5718 0937">
+
+      <img src="pic/logoig01.png" alt="logo" height="40px" title="@yblashestudio">
+      <i class='fas fa-shopping-cart' style='font-size:25px;color:#dbaf5c; margin: 5px;cursor: pointer;'
+        data-toggle="tooltip" id="carrito" onclick="mostrar_carrito()"> </i>
+
+
+    </div>
+  </div>
+</header>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">HOME</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="servicios.html">SERVICIOS</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="productos.html">PRODUCTOS</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="multimedia.html">GALERIA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="formulario.html">CONTACTENOS</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="barra" style="margin-top: 30px"> PRODUCTOS</div>
+  <section id=mercancia>
+    <div class="row">
+      <div class="offset-md-2 col-md-2 col-sm-6 col-12 border">
+        <div class="row" style="text-align: center;font-weight: bold; justify-content: center; padding: 10px">
+          Combo de Pestañas
+        </div>
+        <div class="row" style="justify-content: center;">
+          <img class="img-fluid" src="pic/combotres.jpg" alt="combo" width="150" height="130">
+        </div>
+        <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
+          <span class="badge badge-pill badge-secondary">3.500 ARS</span>
+        </div>
+        <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
+          <input type="number" min="0" class="form-control form-control-sm" style="width: 70px;" id="producto1">
+          <i class='fas fa-cart-plus' style='font-size:25px;color:#6c757d; margin: 5px;cursor: pointer;'
+            onclick="agregarAListaCarrito(1)"> </i>
+        </div>
+
+      </div>
+
+      <div class=" offset-md-1 col-md-2 col-sm-6 col-12 border">
+        <div class="row" style="justify-content: center;font-weight: bold; padding: 10px">
+          Molde de silicona
+        </div>
+        <div class="row" style="justify-content: center;">
+          <img class="img-fluid" src="pic/moldes.jpg" alt="molde" width="150" height="130">
+        </div>
+        <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
+          <span class="badge badge-pill badge-secondary">2.000 ARS</span>
+        </div>
+        <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
+          <input type="number" min="0" class="form-control form-control-sm" style="width: 70px;" id="producto2">
+          <i class='fas fa-cart-plus' style='font-size:25px;color:#6c757d; margin: 5px;cursor: pointer;'
+            onclick="agregarAListaCarrito(2)"> </i>
+
+        </div>
+
+      </div>
+
+      <div class=" offset-md-1 col-md-2 col-sm-6 col-12 border">
+        <div class="row" style="justify-content: center;font-weight: bold; padding: 10px">
+          Kit mirada perfecta
+        </div>
+        <div class="row" style="justify-content: center;">
+          <img class="img-fluid" src="pic/kitmirada.jpg" alt="kit" width="150" height="130">
+        </div>
+        <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
+          <span class="badge badge-pill badge-secondary">3.000 ARS</span>
+        </div>
+        <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
+          <input type="number" min="0" class="form-control form-control-sm" style="width: 70px;" id="producto3">
+
+          <i class='fas fa-cart-plus' style='font-size:25px;color:#6c757d; margin: 5px;cursor: pointer;'
+            onclick="agregarAListaCarrito(3)"> </i>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px" id="animacion">
+
+    </div>
+  </section>
+  <section id="inferior">
+
+  </section>
+  <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
+
+
+
+    <h4><a class="badge badge-pill badge-secondary" href="formulario.html" style="cursor: pointer; visibility: hidden;"
+        id="pagar" data-toggle="modal" data-target="#myModal">Finalizar compra</a></h4>
+
+  </div>
+
+
+
+  <!--Inicio Modal Confirmacion Correo-->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>Ingrese el correo al que desea le llegue el link de pago.</p>
+          <div class="col-sm-8">
+            <input class="form-control" type="email" placeholder="Ingrese un correo" required>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal"
+            data-target="#exampleAgradecimiento">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Fin Modal Confirmacion Correo-->
+
+  <!--Inicio Modal agradecimiento y refresca pagina-->
+  <div class="modal fade" id="exampleAgradecimiento" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalAgradecimiento" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+        </div>
+        <div class="modal-body">
+          <p>Gracias por su compra.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal"
+            onclick="javascript:window.location.reload();">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Fin Modal agradecimiento y refresca pagina-->
+
+  <footer>
+    <div class="row" style="justify-content: center;margin-top: 5px;">
+      <img src="pic/logoorig.png" alt="logo" height="130px">
+    </div>
+    <div class="footer" style="color:#dbaf5c;text-align: center;">
+      © 2021 | @leonrd_ | Todos los derechos reservados.
+    </div>
+  </footer>
+  <script src="mercancia.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

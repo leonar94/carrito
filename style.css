@@ -1,0 +1,90 @@
+header {
+  background:  linear-gradient(to top, #000, #ccc)
+}
+
+h1 {
+  color:#a67a28; 
+  font-family: 'Great Vibes', cursive;
+}
+
+.titulo {
+  color:#dbaf5c;
+  text-transform: capitalize;
+  font-family: 'Great Vibes', cursive;
+  margin-top: 33px;
+  font-size: 25px;
+}
+
+.principal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.fotoPrincipal {
+  border-style: solid;
+  color:black; 
+  border-width: 5px; 
+  padding: 0px; 
+  border-radius: 7px;
+  margin: 15px; 
+}
+
+.fotoPrincipal div {
+  display: flex;
+}
+
+main {
+  background-color:  #D0A9F5;
+}
+
+div.dos {	
+  width: 700px;
+  height: 100%;
+  font-family: arial;
+}
+
+.dos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;		
+}
+
+.multi {
+  display: flex;
+  flex-direction: column;	
+  background-color: #D0A9F5;
+}
+
+div.imagen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer {
+  background:  linear-gradient(to top, #000, #ccc);
+  padding-bottom: 10px
+} 
+
+.barra {
+  height: 100px;   
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  background-image: url("pic/mid-img-home.jpg");
+  opacity: 40%;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  background-size: 100%;
+}
+
+@media (max-width: 576px) {
+  .miestilo {
+    width:300px;
+    height: 250px; 
+    margin-left: 50px;
+  }
+}
+
